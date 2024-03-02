@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(93, 93, 246);
+    height:50px;
+    width: auto;
+    display:flex;
+    position:fixed;
+    
+}
+.search{
+    margin:10px;
+}
+.navbar{
+    display:flex;
+    margin:23px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar li{
+    text-decoration: none;
+
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    margin:78px;
+}
+.navbar li a:hover{
+    color:red;
+}
+img{
+    margin:8px;
+}
+.photo{
+    height:42px;
+    width:32px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}

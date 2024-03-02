@@ -1,0 +1,25 @@
+.container{
+    border: dashed black;
+    height:300px;
+    width:300px;
+    margin:100px;
+
+}
+.box{
+   height: 100px; 
+   width: 100px;
+}
+.red{
+    position:fixed;
+    background-color: red;
+    bottom: 23px;
+}
+.green{
+    position:absolute;
+    background-color: green;
+    bottom: 0;
+    right: 0;
+}
+.blue{
+    background-color: blue;
+}
